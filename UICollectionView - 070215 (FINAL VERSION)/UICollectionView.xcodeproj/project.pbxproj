@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A384BE31B33B4400060912D /* Galaxy Note.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A384BE01B33B4400060912D /* Galaxy Note.jpg */; };
+		4A384BE41B33B4400060912D /* Galaxy S4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A384BE11B33B4400060912D /* Galaxy S4.jpg */; };
+		4A384BE51B33B4400060912D /* Galaxy Tab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A384BE21B33B4400060912D /* Galaxy Tab.jpg */; };
+		4A5E902D1B331A1000C132D9 /* Apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E90291B331A1000C132D9 /* Apple.jpg */; };
+		4A5E902E1B331A1000C132D9 /* Motorola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E902A1B331A1000C132D9 /* Motorola.jpg */; };
+		4A5E902F1B331A1000C132D9 /* Nokia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E902B1B331A1000C132D9 /* Nokia.jpg */; };
+		4A5E90301B331A1000C132D9 /* Samsung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E902C1B331A1000C132D9 /* Samsung.jpg */; };
+		4A5E90321B331A4D00C132D9 /* NibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5E90311B331A4D00C132D9 /* NibCell.xib */; };
+		4AE04F3D1B34724700805CA9 /* Lumia 635.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AE04F3A1B34724700805CA9 /* Lumia 635.jpg */; };
+		4AE04F3E1B34724700805CA9 /* Lumia 640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AE04F3B1B34724700805CA9 /* Lumia 640.jpg */; };
+		4AE04F3F1B34724700805CA9 /* Lumia 640XL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AE04F3C1B34724700805CA9 /* Lumia 640XL.jpg */; };
+		4AE04F431B34725100805CA9 /* Moto E.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AE04F401B34725100805CA9 /* Moto E.jpg */; };
+		4AE04F441B34725100805CA9 /* Moto G.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AE04F411B34725100805CA9 /* Moto G.jpg */; };
+		4AE04F451B34725100805CA9 /* Moto X.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AE04F421B34725100805CA9 /* Moto X.jpg */; };
+		4AF81B241B320390007F0667 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF81B231B320390007F0667 /* main.m */; };
+		4AF81B271B320390007F0667 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF81B261B320390007F0667 /* AppDelegate.m */; };
+		4AF81B2F1B320390007F0667 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF81B2E1B320390007F0667 /* Images.xcassets */; };
+		4AF81B321B320390007F0667 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF81B301B320390007F0667 /* LaunchScreen.xib */; };
+		4AF81B3E1B320390007F0667 /* UICollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF81B3D1B320390007F0667 /* UICollectionViewTests.m */; };
+		4AF81B4A1B3203C5007F0667 /* ParentCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF81B481B3203C5007F0667 /* ParentCollectionViewController.m */; };
+		4AF81B4B1B3203C5007F0667 /* ParentCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF81B491B3203C5007F0667 /* ParentCollectionViewController.xib */; };
+		4AF81B4F1B3203DA007F0667 /* ChildCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF81B4D1B3203DA007F0667 /* ChildCollectionViewController.m */; };
+		4AF81B501B3203DA007F0667 /* ChildCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF81B4E1B3203DA007F0667 /* ChildCollectionViewController.xib */; };
+		4AF81B531B3204A5007F0667 /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF81B521B3204A5007F0667 /* MySingleton.m */; };
+		4AF81B561B3204B5007F0667 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF81B551B3204B5007F0667 /* Company.m */; };
+		4AF81B591B3204C3007F0667 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF81B581B3204C3007F0667 /* Product.m */; };
+		4AF81B5D1B3204FB007F0667 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF81B5B1B3204FB007F0667 /* WebViewController.m */; };
+		4AF81B5E1B3204FB007F0667 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF81B5C1B3204FB007F0667 /* WebViewController.xib */; };
+		4AF81B7C1B320C15007F0667 /* iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF81B751B320C15007F0667 /* iPad.jpg */; };
+		4AF81B7D1B320C15007F0667 /* iPhone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF81B761B320C15007F0667 /* iPhone.jpg */; };
+		4AF81B7E1B320C15007F0667 /* iPod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF81B771B320C15007F0667 /* iPod.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AF81B381B320390007F0667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF81B161B320390007F0667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF81B1D1B320390007F0667;
+			remoteInfo = UICollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A384BE01B33B4400060912D /* Galaxy Note.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Galaxy Note.jpg"; path = "UICollectionView/Images/Galaxy Note.jpg"; sourceTree = "<group>"; };
+		4A384BE11B33B4400060912D /* Galaxy S4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Galaxy S4.jpg"; path = "UICollectionView/Images/Galaxy S4.jpg"; sourceTree = "<group>"; };
+		4A384BE21B33B4400060912D /* Galaxy Tab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Galaxy Tab.jpg"; path = "UICollectionView/Images/Galaxy Tab.jpg"; sourceTree = "<group>"; };
+		4A5E90291B331A1000C132D9 /* Apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Apple.jpg; path = UICollectionView/Images/Apple.jpg; sourceTree = "<group>"; };
+		4A5E902A1B331A1000C132D9 /* Motorola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Motorola.jpg; path = UICollectionView/Images/Motorola.jpg; sourceTree = "<group>"; };
+		4A5E902B1B331A1000C132D9 /* Nokia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Nokia.jpg; path = UICollectionView/Images/Nokia.jpg; sourceTree = "<group>"; };
+		4A5E902C1B331A1000C132D9 /* Samsung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Samsung.jpg; path = UICollectionView/Images/Samsung.jpg; sourceTree = "<group>"; };
+		4A5E90311B331A4D00C132D9 /* NibCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NibCell.xib; path = UICollectionView/NibCell.xib; sourceTree = "<group>"; };
+		4AE04F3A1B34724700805CA9 /* Lumia 635.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Lumia 635.jpg"; path = "UICollectionView/Images/Lumia 635.jpg"; sourceTree = "<group>"; };
+		4AE04F3B1B34724700805CA9 /* Lumia 640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Lumia 640.jpg"; path = "UICollectionView/Images/Lumia 640.jpg"; sourceTree = "<group>"; };
+		4AE04F3C1B34724700805CA9 /* Lumia 640XL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Lumia 640XL.jpg"; path = "UICollectionView/Images/Lumia 640XL.jpg"; sourceTree = "<group>"; };
+		4AE04F401B34725100805CA9 /* Moto E.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Moto E.jpg"; path = "UICollectionView/Images/Moto E.jpg"; sourceTree = "<group>"; };
+		4AE04F411B34725100805CA9 /* Moto G.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Moto G.jpg"; path = "UICollectionView/Images/Moto G.jpg"; sourceTree = "<group>"; };
+		4AE04F421B34725100805CA9 /* Moto X.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Moto X.jpg"; path = "UICollectionView/Images/Moto X.jpg"; sourceTree = "<group>"; };
+		4AF81B1E1B320390007F0667 /* UICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF81B221B320390007F0667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF81B231B320390007F0667 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AF81B251B320390007F0667 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AF81B261B320390007F0667 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AF81B2E1B320390007F0667 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4AF81B311B320390007F0667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4AF81B371B320390007F0667 /* UICollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF81B3C1B320390007F0667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF81B3D1B320390007F0667 /* UICollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewTests.m; sourceTree = "<group>"; };
+		4AF81B471B3203C5007F0667 /* ParentCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParentCollectionViewController.h; path = UICollectionView/ParentCollectionViewController.h; sourceTree = "<group>"; };
+		4AF81B481B3203C5007F0667 /* ParentCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParentCollectionViewController.m; path = UICollectionView/ParentCollectionViewController.m; sourceTree = "<group>"; };
+		4AF81B491B3203C5007F0667 /* ParentCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ParentCollectionViewController.xib; path = UICollectionView/ParentCollectionViewController.xib; sourceTree = "<group>"; };
+		4AF81B4C1B3203DA007F0667 /* ChildCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChildCollectionViewController.h; path = UICollectionView/ChildCollectionViewController.h; sourceTree = "<group>"; };
+		4AF81B4D1B3203DA007F0667 /* ChildCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChildCollectionViewController.m; path = UICollectionView/ChildCollectionViewController.m; sourceTree = "<group>"; };
+		4AF81B4E1B3203DA007F0667 /* ChildCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChildCollectionViewController.xib; path = UICollectionView/ChildCollectionViewController.xib; sourceTree = "<group>"; };
+		4AF81B511B3204A5007F0667 /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySingleton.h; path = UICollectionView/MySingleton.h; sourceTree = "<group>"; };
+		4AF81B521B3204A5007F0667 /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySingleton.m; path = UICollectionView/MySingleton.m; sourceTree = "<group>"; };
+		4AF81B541B3204B5007F0667 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Company.h; path = UICollectionView/Company.h; sourceTree = "<group>"; };
+		4AF81B551B3204B5007F0667 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Company.m; path = UICollectionView/Company.m; sourceTree = "<group>"; };
+		4AF81B571B3204C3007F0667 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Product.h; path = UICollectionView/Product.h; sourceTree = "<group>"; };
+		4AF81B581B3204C3007F0667 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = UICollectionView/Product.m; sourceTree = "<group>"; };
+		4AF81B5A1B3204FB007F0667 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = UICollectionView/WebViewController.h; sourceTree = "<group>"; };
+		4AF81B5B1B3204FB007F0667 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = UICollectionView/WebViewController.m; sourceTree = "<group>"; };
+		4AF81B5C1B3204FB007F0667 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebViewController.xib; path = UICollectionView/WebViewController.xib; sourceTree = "<group>"; };
+		4AF81B751B320C15007F0667 /* iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iPad.jpg; path = UICollectionView/Images/iPad.jpg; sourceTree = "<group>"; };
+		4AF81B761B320C15007F0667 /* iPhone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iPhone.jpg; path = UICollectionView/Images/iPhone.jpg; sourceTree = "<group>"; };
+		4AF81B771B320C15007F0667 /* iPod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iPod.jpg; path = UICollectionView/Images/iPod.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AF81B1B1B320390007F0667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF81B341B320390007F0667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AE04F461B34726F00805CA9 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E90291B331A1000C132D9 /* Apple.jpg */,
+				4AF81B751B320C15007F0667 /* iPad.jpg */,
+				4AF81B761B320C15007F0667 /* iPhone.jpg */,
+				4AF81B771B320C15007F0667 /* iPod.jpg */,
+			);
+			name = Apple;
+			sourceTree = "<group>";
+		};
+		4AE04F471B34727C00805CA9 /* Samsung */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E902C1B331A1000C132D9 /* Samsung.jpg */,
+				4A384BE01B33B4400060912D /* Galaxy Note.jpg */,
+				4A384BE11B33B4400060912D /* Galaxy S4.jpg */,
+				4A384BE21B33B4400060912D /* Galaxy Tab.jpg */,
+			);
+			name = Samsung;
+			sourceTree = "<group>";
+		};
+		4AE04F481B34728200805CA9 /* Nokia */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E902B1B331A1000C132D9 /* Nokia.jpg */,
+				4AE04F3A1B34724700805CA9 /* Lumia 635.jpg */,
+				4AE04F3B1B34724700805CA9 /* Lumia 640.jpg */,
+				4AE04F3C1B34724700805CA9 /* Lumia 640XL.jpg */,
+			);
+			name = Nokia;
+			sourceTree = "<group>";
+		};
+		4AE04F491B34728900805CA9 /* Motorola */ = {
+			isa = PBXGroup;
+			children = (
+				4A5E902A1B331A1000C132D9 /* Motorola.jpg */,
+				4AE04F401B34725100805CA9 /* Moto E.jpg */,
+				4AE04F411B34725100805CA9 /* Moto G.jpg */,
+				4AE04F421B34725100805CA9 /* Moto X.jpg */,
+			);
+			name = Motorola;
+			sourceTree = "<group>";
+		};
+		4AF81B151B320390007F0667 = {
+			isa = PBXGroup;
+			children = (
+				4AF81B6E1B320799007F0667 /* Controllers and Data */,
+				4AF81B5F1B320762007F0667 /* Images */,
+				4AF81B201B320390007F0667 /* UICollectionView */,
+				4AF81B3A1B320390007F0667 /* UICollectionViewTests */,
+				4AF81B1F1B320390007F0667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AF81B1F1B320390007F0667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF81B1E1B320390007F0667 /* UICollectionView.app */,
+				4AF81B371B320390007F0667 /* UICollectionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AF81B201B320390007F0667 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				4AF81B251B320390007F0667 /* AppDelegate.h */,
+				4AF81B261B320390007F0667 /* AppDelegate.m */,
+				4AF81B2E1B320390007F0667 /* Images.xcassets */,
+				4AF81B301B320390007F0667 /* LaunchScreen.xib */,
+				4AF81B211B320390007F0667 /* Supporting Files */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		4AF81B211B320390007F0667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AF81B221B320390007F0667 /* Info.plist */,
+				4AF81B231B320390007F0667 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AF81B3A1B320390007F0667 /* UICollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AF81B3D1B320390007F0667 /* UICollectionViewTests.m */,
+				4AF81B3B1B320390007F0667 /* Supporting Files */,
+			);
+			path = UICollectionViewTests;
+			sourceTree = "<group>";
+		};
+		4AF81B3B1B320390007F0667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AF81B3C1B320390007F0667 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AF81B5F1B320762007F0667 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4AE04F461B34726F00805CA9 /* Apple */,
+				4AE04F471B34727C00805CA9 /* Samsung */,
+				4AE04F481B34728200805CA9 /* Nokia */,
+				4AE04F491B34728900805CA9 /* Motorola */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4AF81B6E1B320799007F0667 /* Controllers and Data */ = {
+			isa = PBXGroup;
+			children = (
+				4AF81B511B3204A5007F0667 /* MySingleton.h */,
+				4AF81B521B3204A5007F0667 /* MySingleton.m */,
+				4AF81B541B3204B5007F0667 /* Company.h */,
+				4AF81B551B3204B5007F0667 /* Company.m */,
+				4AF81B571B3204C3007F0667 /* Product.h */,
+				4AF81B581B3204C3007F0667 /* Product.m */,
+				4AF81B471B3203C5007F0667 /* ParentCollectionViewController.h */,
+				4AF81B481B3203C5007F0667 /* ParentCollectionViewController.m */,
+				4AF81B491B3203C5007F0667 /* ParentCollectionViewController.xib */,
+				4AF81B4C1B3203DA007F0667 /* ChildCollectionViewController.h */,
+				4AF81B4D1B3203DA007F0667 /* ChildCollectionViewController.m */,
+				4AF81B4E1B3203DA007F0667 /* ChildCollectionViewController.xib */,
+				4A5E90311B331A4D00C132D9 /* NibCell.xib */,
+				4AF81B5A1B3204FB007F0667 /* WebViewController.h */,
+				4AF81B5B1B3204FB007F0667 /* WebViewController.m */,
+				4AF81B5C1B3204FB007F0667 /* WebViewController.xib */,
+			);
+			name = "Controllers and Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AF81B1D1B320390007F0667 /* UICollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF81B411B320390007F0667 /* Build configuration list for PBXNativeTarget "UICollectionView" */;
+			buildPhases = (
+				4AF81B1A1B320390007F0667 /* Sources */,
+				4AF81B1B1B320390007F0667 /* Frameworks */,
+				4AF81B1C1B320390007F0667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICollectionView;
+			productName = UICollectionView;
+			productReference = 4AF81B1E1B320390007F0667 /* UICollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AF81B361B320390007F0667 /* UICollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF81B441B320390007F0667 /* Build configuration list for PBXNativeTarget "UICollectionViewTests" */;
+			buildPhases = (
+				4AF81B331B320390007F0667 /* Sources */,
+				4AF81B341B320390007F0667 /* Frameworks */,
+				4AF81B351B320390007F0667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF81B391B320390007F0667 /* PBXTargetDependency */,
+			);
+			name = UICollectionViewTests;
+			productName = UICollectionViewTests;
+			productReference = 4AF81B371B320390007F0667 /* UICollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AF81B161B320390007F0667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Philip San Filippo";
+				TargetAttributes = {
+					4AF81B1D1B320390007F0667 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					4AF81B361B320390007F0667 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 4AF81B1D1B320390007F0667;
+					};
+				};
+			};
+			buildConfigurationList = 4AF81B191B320390007F0667 /* Build configuration list for PBXProject "UICollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AF81B151B320390007F0667;
+			productRefGroup = 4AF81B1F1B320390007F0667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF81B1D1B320390007F0667 /* UICollectionView */,
+				4AF81B361B320390007F0667 /* UICollectionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AF81B1C1B320390007F0667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A384BE31B33B4400060912D /* Galaxy Note.jpg in Resources */,
+				4AE04F441B34725100805CA9 /* Moto G.jpg in Resources */,
+				4AE04F451B34725100805CA9 /* Moto X.jpg in Resources */,
+				4A5E902E1B331A1000C132D9 /* Motorola.jpg in Resources */,
+				4AF81B4B1B3203C5007F0667 /* ParentCollectionViewController.xib in Resources */,
+				4AF81B7E1B320C15007F0667 /* iPod.jpg in Resources */,
+				4AF81B501B3203DA007F0667 /* ChildCollectionViewController.xib in Resources */,
+				4AE04F431B34725100805CA9 /* Moto E.jpg in Resources */,
+				4AF81B7D1B320C15007F0667 /* iPhone.jpg in Resources */,
+				4A384BE41B33B4400060912D /* Galaxy S4.jpg in Resources */,
+				4A5E90301B331A1000C132D9 /* Samsung.jpg in Resources */,
+				4AF81B5E1B3204FB007F0667 /* WebViewController.xib in Resources */,
+				4A5E902D1B331A1000C132D9 /* Apple.jpg in Resources */,
+				4AE04F3E1B34724700805CA9 /* Lumia 640.jpg in Resources */,
+				4A384BE51B33B4400060912D /* Galaxy Tab.jpg in Resources */,
+				4A5E90321B331A4D00C132D9 /* NibCell.xib in Resources */,
+				4A5E902F1B331A1000C132D9 /* Nokia.jpg in Resources */,
+				4AF81B7C1B320C15007F0667 /* iPad.jpg in Resources */,
+				4AE04F3F1B34724700805CA9 /* Lumia 640XL.jpg in Resources */,
+				4AF81B321B320390007F0667 /* LaunchScreen.xib in Resources */,
+				4AE04F3D1B34724700805CA9 /* Lumia 635.jpg in Resources */,
+				4AF81B2F1B320390007F0667 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF81B351B320390007F0667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AF81B1A1B320390007F0667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF81B4A1B3203C5007F0667 /* ParentCollectionViewController.m in Sources */,
+				4AF81B531B3204A5007F0667 /* MySingleton.m in Sources */,
+				4AF81B4F1B3203DA007F0667 /* ChildCollectionViewController.m in Sources */,
+				4AF81B5D1B3204FB007F0667 /* WebViewController.m in Sources */,
+				4AF81B271B320390007F0667 /* AppDelegate.m in Sources */,
+				4AF81B591B3204C3007F0667 /* Product.m in Sources */,
+				4AF81B241B320390007F0667 /* main.m in Sources */,
+				4AF81B561B3204B5007F0667 /* Company.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF81B331B320390007F0667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF81B3E1B320390007F0667 /* UICollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AF81B391B320390007F0667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF81B1D1B320390007F0667 /* UICollectionView */;
+			targetProxy = 4AF81B381B320390007F0667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AF81B301B320390007F0667 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF81B311B320390007F0667 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AF81B3F1B320390007F0667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4AF81B401B320390007F0667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AF81B421B320390007F0667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UICollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AF81B431B320390007F0667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UICollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AF81B451B320390007F0667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UICollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionView.app/UICollectionView";
+			};
+			name = Debug;
+		};
+		4AF81B461B320390007F0667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UICollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionView.app/UICollectionView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AF81B191B320390007F0667 /* Build configuration list for PBXProject "UICollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF81B3F1B320390007F0667 /* Debug */,
+				4AF81B401B320390007F0667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF81B411B320390007F0667 /* Build configuration list for PBXNativeTarget "UICollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF81B421B320390007F0667 /* Debug */,
+				4AF81B431B320390007F0667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF81B441B320390007F0667 /* Build configuration list for PBXNativeTarget "UICollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF81B451B320390007F0667 /* Debug */,
+				4AF81B461B320390007F0667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AF81B161B320390007F0667 /* Project object */;
+}

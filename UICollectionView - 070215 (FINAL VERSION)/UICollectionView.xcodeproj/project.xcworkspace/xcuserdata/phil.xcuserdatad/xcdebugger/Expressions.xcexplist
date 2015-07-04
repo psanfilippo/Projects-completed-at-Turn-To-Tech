@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ChildCollectionViewController longPressCellToDelete:]:ChildCollectionViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MySingleton saveData]:MySingleton.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MySingleton readData]:MySingleton.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ChildCollectionViewController collectionView:numberOfItemsInSection:]:ChildCollectionViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ParentCollectionViewController collectionView:didSelectItemAtIndexPath:]:ParentCollectionViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ChildCollectionViewController collectionView:cellForItemAtIndexPath:]:ChildCollectionViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
