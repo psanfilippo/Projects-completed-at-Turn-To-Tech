@@ -16,7 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-        // Override point for customization after application launch.
+        // Overrides point for customization after application launch.
         UIViewController *rootController = [[ParentCollectionViewController alloc]initWithNibName:@"ParentCollectionViewController" bundle:nil];
     
         self.navigationController = [[UINavigationController alloc]initWithRootViewController:rootController];

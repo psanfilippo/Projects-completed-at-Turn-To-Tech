@@ -35,8 +35,6 @@ static NSString * const reuseIdentifier = @"Cell";
     self.dao = [MySingleton sharedInstance];
     self.companyList = self.dao.companyList;
     self.title = @"Mobile Device Makers";
-    
-    [[MySingleton sharedInstance] saveData];
 
     // Configures layout
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
@@ -51,7 +49,6 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
@@ -99,8 +96,6 @@ static NSString * const reuseIdentifier = @"Cell";
     self.childVC.company = self.companyList[indexPath.row];
     self.childVC.title = self.childVC.company.name;
     
-    //[self.childVC.collectionView reloadData];
-    //self.navigationItem.rightBarButtonItem = self.editButtonItem;
     [self.navigationController pushViewController:self.childVC
                                          animated:YES];
     

@@ -38,7 +38,7 @@
 
 - (void)encodeWithCoder:(NSCoder *)encoder {
     
-    // Encode sproperties and other class variables
+    // Encodes sproperties and other class variables
     NSLog(@"Encoder Called");
     
     [encoder encodeObject:self.name forKey:@"name"];

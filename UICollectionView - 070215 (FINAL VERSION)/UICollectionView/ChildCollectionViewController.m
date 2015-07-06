@@ -126,7 +126,7 @@ static NSString * const reuseIdentifier = @"Cell";
     NSLog(@"Selected button at index = %ld", buttonIndex);
     if (buttonIndex == 1) {
         
-        // Deletes cell after being selected
+    // Deletes cell after being selected
     }
     [self.collectionView reloadData];
 }
